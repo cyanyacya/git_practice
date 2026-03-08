@@ -1,6 +1,6 @@
 import requests
 import re
-
+import time
 
 PRINTER = input("Вставить ip адрес принтера Canon:")
 count = 15 # начало записи адресной книги
@@ -80,4 +80,4 @@ with open("printer_import.csv", encoding="utf-8") as f:
         print("Added:", lastname)
         print("Status:", r.status_code)
         print("Response length:", len(r.text))
-         
+        time.sleep(0.2)
