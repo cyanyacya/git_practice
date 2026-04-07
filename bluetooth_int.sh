@@ -1,15 +1,6 @@
-#sudo unzstd BT_RAM_CODE_MT7922_1_1_hdr.bin.zst
-#sudo unzstd BT_RAM_CODE_MT7961_1_2_hdr.bin.zst
-#sudo unzstd BT_RAM_CODE_MT7961_1a_2_hdr.bin.zst
-
-#sudo cp /lib/firmware/mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin \                                                                         19:25 
-#        /lib/firmware/mediatek/mt7925/
-
-#sudo cp /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin \
-#        /lib/firmware/mediatek/mt7925/
-
-#sudo cp /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.bin \
-#        /lib/firmware/mediatek/mt7925/
+sudo unzstd BT_RAM_CODE_MT7922_1_1_hdr.bin.zst
+sudo unzstd BT_RAM_CODE_MT7961_1_2_hdr.bin.zst
+sudo unzstd BT_RAM_CODE_MT7961_1a_2_hdr.bin.zst
 
 
 #sudo mkdir -p /etc/pacman.d/hooks                                                                                                                            19:24 
